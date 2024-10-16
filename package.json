@@ -1,0 +1,29 @@
+{
+  "name": "subabackend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "homepage": "https://brunocamacho1998.github.io/SubastasBackend",
+  "scripts": {
+    "start": "node ./dist/app.js",
+    "build": "tsc -p .",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "exceljs": "^4.4.0",
+    "express": "^4.21.0",
+    "firebase": "^10.14.1",
+    "nodemon": "^3.1.7",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "gh-pages": "^6.2.0"
+  }
+}
